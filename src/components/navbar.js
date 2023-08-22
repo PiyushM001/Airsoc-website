@@ -15,12 +15,7 @@ export default function Navbar() {
         </div>
         <div className='links0'>
         <div className='links'>
-        <a className='link-home link' href='/'>Home </a>
-        <a className='link' href='/'>Team </a>
-        <a className='link' href='/'>Project</a>
-        <a className='link' href='/'>Milestone</a>
-        <a className='link' href='/'>Gallery </a>
-        <a className='link' href='/'>Contact</a>
+        
         </div></div>
     </div>
 <img className='big-img' src={img3} alt='.'></img></div>
