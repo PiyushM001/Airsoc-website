@@ -1,0 +1,57 @@
+.component2{
+    width: 100%;
+}
+.animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a1{
+    width: 40%;
+    height: 400px;
+z-index: 10;
+position: absolute;
+left: 30%;
+transform: translateX(-250px) scale(0.7);
+transition:all 0.4s ease-out;
+}
+
+.a21{
+    height: 300px;
+    width: 30%;
+    transform: translateX(-150px) scale(0.7);
+    transition:all 0.7s ease-out;
+
+    z-index:1;
+    position: absolute;
+    left: 17%;
+}
+.a22{
+    width: 30%;
+    height: 300px;
+    transform: translateX(-300px) scale(1.4);
+    transition:all 0.7s ease-out;
+
+    z-index: 100;
+    position: absolute;
+    left: 55%;
+}
+.a31{
+    width: 20%;
+    height: 200px;
+    position: absolute;
+    transform: translateX(850px) ;
+    transition:all 0.1s ease-out;
+
+z-index: 1;
+    left: 10%;
+}
+.a32{
+    width: 20%;
+    height: 200px;
+    transform: translateX(-200px) scale(1.4);
+    transition:all 0.7s ease-out;
+z-index: 10;
+    position: absolute;
+    left: 70%;
+}
