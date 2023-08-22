@@ -20,7 +20,7 @@ export default function Navbar() {
         <a className='link' href='/'>Project</a>
         <a className='link' href='/'>Milestone</a>
         <a className='link' href='/'>Gallery </a>
-       
+        <a className='link' href='/'>Contact</a>
         </div></div>
     </div>
 <img className='big-img' src={img3} alt='.'></img></div>
