@@ -1,70 +1,157 @@
-.nav{
-    display: flex;
-    background: #B5627B;
+* {
+  margin: 0;
+  padding: 0;
+
+}
+body{
     width: 100%;
-height: 85px;
-align-items: center;
-color: #F9F6F6;
-;
+}
+.nav {
+  display: flex;
+  background: #b5627b;
+  width: 100%;
+  height: 85px;
+  align-items: center;
+  color: #f9f6f6;
+  position: fixed;
+  top:0;
+  z-index: 1000000000;
 }
 
-.test{
-  position: relative;
-    width: 100%;
-    background-image: url(../../images/plane_a.svg);
-    background-size: 100%;
-    height: 48vw;
+
+.airsoc-logo-div {
+  height: 70px;
+  width: 120px;
 }
-.svg{
-    background-color: transparent;
-    position: absolute;
-    top: 55%;
-    
+.airsoc {
+  margin: 0;
 }
-.airsoc-logo-div{
-    height: 70px;
-    width: 120px;
+.iitr {
+  margin: 0;
+  width: 120px;
 }
-.airsoc{
-    margin: 0;
+#logo {
+  margin-left: 10%;
 }
-.iitr{
-    margin: 0;
-    width: 120px;
+.logo-margin {
+  margin-right: 8px;
 }
-#logo{
-    margin-left: 10%;
+.links {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
 }
-.logo-margin{
-    margin-right: 8px;
+.links0 {
+  width:100%;
+  display: flex;
+  justify-content: center;
 }
-.links{
-    width: 70%;
-    display:flex ;
-    justify-content: space-around;
-    text-decoration: none;
+.link {
+  text-decoration: none;
+  color: #f9f6f6;
+  font-weight: 400;
 }
-.links0{
-    width: 74%;
+
+.hamburger-div{
+   
     display: flex;
-    justify-content: center;
+    align-content: end;
+    justify-content: end;
+   
 }
-.link{
-    text-decoration: none;
-    color: #F9F6F6;
-    font-weight: 400;
+span{
+    display: none;
+    Width:36px;
+    Height:6.4px;
+    margin-bottom: 5px;
+    margin-right: 40px;
+    background: white;
+    border-radius: 5px;
 }
-.link-home{
-    font-weight: 700;
+.list-div{
+    display: none;
 }
-.big-img{
+.list{
+  display: none;
+}
+@media (max-width:900px) {
+  #logo{
+    width: 50px;
+  }
+  .nav{
+    height: 51px;
+  }
+    #airsoc-logo{
+        display: none;
+    }
+.airsoc-logo-div{
+    display: none;
+}
+    .links0{
+        display: none;
+    }
+  .hamburger-div{
     width: 100%;
+    position: relative;
+  }
+   span{
+    display: flex;
+   }
+   .list{
+    width: 70%;
+    height: 100vh;
+     background:  #b5627b;
+     border:2px solid black;
+    display: flex;
+   color: white;
+    z-index: 1000;
+   
+    justify-content: end;
+  
+  
+   
+   
+   }
+   .list-{
+    width: 50%;
+    display:flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+   }
+   .list-div{
+    display: none;
+    }
+   .list-div-{
+ position: absolute;
+top:0;
+    width: 100%;
+   display: flex;
+align-items: end;
+justify-content: end;
 }
-.svg{
-    background-color:transparent;
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpapers.com%2Firon-man&psig=AOvVaw3alht1qLofIp7Rp-GEei3N&ust=1692976473820000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOC4hvvK9YADFQAAAAAdAAAAABAE);
+.list-anchor-tags{
+  margin: 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-stretch:ext;
 }
-.path{
-    color: black;
-    background-color: yellow;
+.cross-div{
+  transform: rotate(45deg);
+  align-self: flex-end;
 }
+.cross-span-1{
+  width: 45px;
+transform:rotate(90deg) translateX(12px);
+
+}
+.cross-span-2{
+  width: 45px;
+}
+}
+
+
