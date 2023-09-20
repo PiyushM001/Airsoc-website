@@ -1,9 +1,10 @@
 import React ,{ useState } from 'react';
 
 import './App.css';
-import Component2 from './components/component2';
-import Navbar from './components/navbar';
-
+import Component2 from './components/home-page/component2';
+import Navbar from './components/home-page/navbar';
+import Ourteam from './components/home-page/our-team';
+import Projecthomepage from './components/home-page/project/project-home-page';
 function App() {
   const [a1 , seta1] = useState("a1");
   const [a21 , seta21] = useState("a21");
@@ -56,6 +57,8 @@ seta32("a32");
     <div>
 <Navbar/>
 <Component2 animate={fun} a1={a1}  a21={a21} a22={a22} a31={a31} a32={a32}/>
+<Ourteam/>
+<Projecthomepage/>
 </div>
   );
 }

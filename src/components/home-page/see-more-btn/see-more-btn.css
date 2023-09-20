@@ -1,0 +1,41 @@
+.see-more-btn {
+  width: 13.6vw;
+  height: 10vh;
+  font-size: 1.5vw;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+cursor: pointer;
+  color: #e07785;
+  border: 0px;
+  border-radius: 5vw;
+  background: white;
+}
+.see-more-btn:hover {
+    color: white;
+  background:transparent;
+  transition: all 0.5s ease-in-out;
+}
+.see-more-btn:hover:not(){
+    color: white;
+  background:transparent;
+  transition: all 0.5s ease-in;
+}
+
+.see-more-btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
+.btn-border {
+  width: 14vw;
+  height: 11vh;
+  background: linear-gradient(90deg, #594899, #e07785);
+  border-radius: 5vw;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

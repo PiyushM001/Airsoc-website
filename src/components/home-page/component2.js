@@ -1,18 +1,14 @@
 import React  from 'react' ;
-import '../components/component2.css'
-import animationimg1 from '../images/plane_a.png';
-import animationimg2 from '../images/plane_b.png';
-import animationimg3 from '../images/plane_c.png';
-import animationimg4 from '../images/drone.png';
-import animationimg5 from '../images/rocket.png';
+import './component2.css'
+import animationimg1 from  '../../images/plane_a.png';
+import animationimg2 from '../../images/plane_b.png';
+import animationimg3 from '../../images/plane_c.png';
+import animationimg4 from '../../images/drone.png';
+import animationimg5 from '../../images/rocket.png';
 
 
 
 export default function Component2(props) {
-  
-
-  
- 
   return (
     <div className='component2'>
       <div className='component2-text'>

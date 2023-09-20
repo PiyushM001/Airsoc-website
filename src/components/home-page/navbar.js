@@ -1,8 +1,8 @@
 import React from 'react'
 import './navbar.css'
-import img from '../images/iitr-logo.png'
-import img2 from '../images/Airsoc 2.png'
-import img3 from '../images/plane_a.png'
+import img from '../../images/iitr-logo.svg'
+import img2 from '../../images/Airsoc 2.svg'
+
 export default function Navbar() {
   return (
     <div>

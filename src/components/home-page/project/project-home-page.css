@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+.project-div{
+ height: 500px;
+ width: 100%;
+   position: relative;
+}
+svg{
+    margin: 0;
+}
+d{
+    border: 10px solid black;
+}
+.project-div-1{
+  background: #0099ff;
+
+}
+.svg{
+    position: absolute;
+    top: -20px;
+    
+}
+.svg2{
+    margin: 0%
+
+    ;
+    width: 100%;
+    padding: 0;
+}
