@@ -12,7 +12,7 @@ export default function Teammember(props) {
         <img src={props.img}></img>
 
         <div className="team-member-box-content">
-          <h3 className="position">Position</h3>
+          <h5 className="position">Position</h5>
           <h1 className="team-members-names">NAME </h1>
 
           <div className="team-member-social-media-icons">

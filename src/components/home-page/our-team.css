@@ -12,21 +12,48 @@ justify-content:space-evenly;
 }
 .our-team-text{
     width: 100%;
-    text-decoration: underline;
+   
 display: flex;
 text-align: center;
 flex-flow: column;
 justify-content: center;
 font-size: 6vw;
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-weight:900;
-color: #e26d7d;
+font-weight:bolder;
+color: #b5627b;
 margin-bottom: 3rem;
 }
-.underline{
-    background-color: aqua;
-    width: 50%;
-    height: 5px;
 
-    
+.underline{
+    background-color:#b5627b;
+    width: 35vw;
+    height: 10px;
+align-self: center;
+    margin-top: 1rem;
+}
+.arrow{
+    display: none;
+}
+@media (max-width:900px) {
+
+    .our-team-div2 > :nth-child(2) {
+        display: none;
+      }
+      .our-team-text{
+      
+    font-size: 12vw;
+   font-weight: bolder;
+   margin-bottom:8vw;
+    }
+    .underline{
+        background-color:#b5627b;
+        width: 80vw;
+        height: 7px;
+    align-self: center;
+        margin-top: 2vw;
+    }
+    .arrow{
+        display: flex;
+        width: 6vw;
+    }
 }

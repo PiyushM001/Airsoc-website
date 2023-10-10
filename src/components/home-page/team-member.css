@@ -2,7 +2,7 @@
   margin: 0;
 }
 .team-member-box {
-  width: 30%;
+  width: 26vw;
 }
 .team-member-box-img {
   width: 100%;
@@ -15,20 +15,21 @@
   background-color: #d9d9d9;
 }
 .position {
-  margin-top: 20px;
+  margin-top: 1vw;
   margin-left: 20px;
-  font-weight: 2px;
-  font-size: 1.5vw;
+ font-size: 1.2vw;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .team-members-names {
   margin-left: 20px;
+  margin-top: 0;
   padding: 0;
-  font-size: 3vw;
+  font-size: 2.8vw;
+
 }
 .team-member-social-media-icons {
-  margin-top: 15px;
-  margin-bottom: 10px;
+  margin-top: 0.2vw;
+  margin-bottom: 1vw;
   margin-left: 20px;
   display: flex;
   align-items: center;
@@ -38,4 +39,48 @@
 }
 .team-member-social-media-img- {
   width: 2.6vw;
+}
+
+@media (max-width:900px) {
+
+  .team-member-box {
+    width: 60vw;
+  }
+  .team-member-box-img {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    background: linear-gradient(to right, #4a349b, #e07785);
+    padding-top: 20px;
+  }
+  .team-member-box-content {
+    background-color: #d9d9d9;
+  }
+  .position {
+    margin-top: 2vw;
+    margin-left: 20px;
+   font-size: 2.5vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  .team-members-names {
+    margin-left: 20px;
+    padding: 0;
+    font-size: 5vw;
+  
+  }
+  .team-member-social-media-icons {
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .team-member-social-media-img {
+    width: 7.5vw;
+  }
+  .team-member-social-media-img- {
+    width: 7vw;
+  }
+  
+   
 }
