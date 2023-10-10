@@ -1,57 +1,67 @@
 import React from "react";
-import './project-home-page.css'
+import "./project-home-page.css";
+import Projectchilddiv from "../project-child-div/project-child-div";
+import img1 from '../../../images/plane_b_project.svg'
+import img2 from '../../../images/rocket_project.svg'
+import img3 from '../../../images/diana-macesanu-3ciHxbx9H0U-unsplash 1.svg'
+
+
 export default function Projecthomepage() {
   return (
     <div className="project-div">
-      <svg className=" svg" viewBox="170 60 1000 200">
-      
+      <svg className=" svg"viewBox="0 140 1440 170">
         <path
           fill="#0099ff"
           fill-opacity="0"
-          stroke="purple" stroke-width="2" stroke-dasharray="20 4" 
+          stroke="purple"
+          stroke-width="2"
+          stroke-dasharray="20 4"
+          d="M0,288L30,272C60,256,120,224,180,202.7C240,181,300,171,360,192C420,213,480,267,540,272C600,277,660,235,720,208C780,181,840,171,900,186.7C960,203,1020,245,1080,250.7C1140,256,1200,224,1260,208C1320,192,1380,192,1410,192L1440,192L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+     
+      <svg xmlns="http://www.w3.org/2000/svg" className="svg2" viewBox="0 140 1440 170"><defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#4a349b" />
+              <stop offset="100%" stop-color="#e07785" />
+            </linearGradient>
+          </defs><path  fill="url(#gradient)" fill-opacity="1" d="M0,288L30,272C60,256,120,224,180,202.7C240,181,300,171,360,192C420,213,480,267,540,272C600,277,660,235,720,208C780,181,840,171,900,186.7C960,203,1020,245,1080,250.7C1140,256,1200,224,1260,208C1320,192,1380,192,1410,192L1440,192L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+      <div className="project-mid-div">
+      <div className="our-team-text project-div-1">
+        Projects
+        <div className="underline project-underline"></div>
+      </div>
+<div className="project-div-2-"></div>
+      <div className="project-div-2">
+        <Projectchilddiv img={img1} title="Aero-Design " content="Aero Design Team is the most experienced team that has performed well at many national level competitions and now they have been working more advanced and innovative designs such as box-wing aircraft. 
+"/>
+    <Projectchilddiv img={img2} title="Rocket-Design " content="Rocket Design Team is completely research-based as of now and they have simulated numerous Stage-I model rockets."/>
+    <Projectchilddiv img={img3} title="UAV/Drone Design " content="Team started in 2021 and they are already successful at a few national competitions. The major focus of this team is to work on latest UAV design and control systems along with applications in different industries such as agriculture. They are equipped with ample technical skills like electronics, flight control systems, Computer Vision, and Artificial Intelligence."/>
+      </div>
+      </div>
 
-          d="M1,192L21.8,208C43.6,224,87,256,131,229.3C174.5,203,218,117,262,101.3C305.5
-          ,85,349,139,393,160C436.4,181,480,171,524,149.3C567.3,128,611,96,655,106.7C698.2,
-          117,742,171,785,170.7C829.1,171,873,117,916,90.7C960,64,1004,64,1047,80C1090.9,96,
-          1135,128,1178,144C1221.8,160,1265,160,1309,181.3C1352.7,203,1396,245,1418,266.7L1440,
-          288L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,
-          320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,
-          320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,
-          320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"
-
-        ></path>
- 
-      </svg>
-      <svg className="svg2" viewBox="170 60 1000 200">
-      <defs>
-    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#605195" />
-      <stop offset="100%" stop-color="#E07785" />
-    </linearGradient>
-  </defs>
+      <div className="lower-wave">
+      <svg className="svg3"  viewBox="0 0 1440 500" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#4a349b" />
+              <stop offset="100%" stop-color="#e07785" />
+            </linearGradient>
+          
+          </defs><path  fill="url(#gradient)" fill-opacity="1" d="M0,96L48,85.3C96,75,192,53,288,74.7C384,96,480,160,576,186.7C672,213,768,203,864,170.7C960,139,1056,85,1152,74.7C1248,64,1344,96,1392,112L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+          </div>
+          <svg className=" svg4"viewBox="0 0 1440 240">
         <path
-         fill="url(#gradient)" fill-opacity="1"
-       
-         
-          d="M0,192L21.8,208C43.6,224,87,256,131,229.3C174.5,203,218,117,262,101.3C305.5
-          ,85,349,139,393,160C436.4,181,480,171,524,149.3C567.3,128,611,96,655,106.7C698.2,
-          117,742,171,785,170.7C829.1,171,873,117,916,90.7C960,64,1004,64,1047,80C1090.9,96,
-          1135,128,1178,144C1221.8,160,1265,160,1309,181.3C1352.7,203,1396,245,1418,266.7L1440,
-          288L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,
-          320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,
-          320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,
-          320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"
-        ></path>
-      </svg>
-      <div className="project-div-1"></div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="200 60 700 200">
-      <defs>
-    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#605195" />
-      <stop offset="100%" stop-color="#E07785" />
-    </linearGradient>
-  </defs>
-  <path   fill="url(#gradient)" fill-opacity="1" d="M0,192L21.8,208C43.6,224,87,256,131,229.3C174.5,203,218,117,262,101.3C305.5,85,349,139,393,160C436.4,181,480,171,524,149.3C567.3,128,611,96,655,106.7C698.2,117,742,171,785,170.7C829.1,171,873,117,916,90.7C960,64,1004,64,1047,80C1090.9,96,1135,128,1178,144C1221.8,160,1265,160,1309,181.3C1352.7,203,1396,245,1418,266.7L1440,288L1440,0L1418.2,0C1396.4,0,1353,0,1309,0C1265.5,0,1222,0,1178,0C1134.5,0,1091,0,1047,0C1003.6,0,960,0,916,0C872.7,0,829,0,785,0C741.8,0,698,0,655,0C610.9,0,567,0,524,0C480,0,436,0,393,0C349.1,0,305,0,262,0C218.2,0,175,0,131,0C87.3,0,44,0,22,0L0,0Z"></path></svg>
+          fill="#0099ff"
+          fill-opacity="0"
+          stroke="purple"
+          stroke-width="2"
+          stroke-dasharray="20 4"
+          d="M0,96L48,85.3C96,75,192,53,288,74.7C384,96,480,160,576,186.7C672,213,768,203,864,170.7C960,139,1056,85,1152,74.7C1248,64,1344,96,1392,112L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+     
+   
     </div>
   );
 }
+// d="M0,288L30,272C60,256,120,224,180,202.7C240,181,300,171,360,192C420,213,480,267,540,272C600,277,660,235,720,208C780,181,840,171,900,186.7C960,203,1020,245,1080,250.7C1140,256,1200,224,1260,208C1320,192,1380,192,1410,192L1440,192L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+
+
+//<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,96L48,85.3C96,75,192,53,288,74.7C384,96,480,160,576,186.7C672,213,768,203,864,170.7C960,139,1056,85,1152,74.7C1248,64,1344,96,1392,112L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+//
