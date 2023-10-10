@@ -9,7 +9,8 @@ cursor: pointer;
   color: #e07785;
   border: 0px;
   border-radius: 5vw;
-  background: white;
+  background: white;  z-index: 10;
+
 }
 .see-more-btn:hover {
     color: white;
@@ -26,7 +27,8 @@ cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 25vh;
+  height: 23vh;
+  z-index: 100000000;
 }
 
 .btn-border {
@@ -50,4 +52,12 @@ cursor: pointer;
     width: 162px;
     height: 63px;
     border-radius: 100px;}
+    .see-more-btn-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 12vh;
+      z-index: 100000000;
+    }
 }
+

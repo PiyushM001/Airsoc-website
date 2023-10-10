@@ -10,15 +10,16 @@ import socialImg3Hov from '../images/insta-foot-hover.svg'
 export default function Footer() {
     return (
         <div className="foot">
+            <div className='iframe-div'>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d216.24516848488238!2d77.89965336499765!3d29.86650317215278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eb32bac1adc93%3A0x80bba7dd5e4d1a6a!2sStudents%20Activity%20Centre%20-%20SAC!5e0!3m2!1sen!2sin!4v1695257980997!5m2!1sen!2sin"
-                width="36%"
-                height="63%"
+                width="100%"
+                height="90%"
                 style={{ border: "0" }}
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+            ></iframe></div>
             <div className='social-icon-div'>
 
                 <a className='link' href='https://www.facebook.com/airsociitr/' target="_blank">

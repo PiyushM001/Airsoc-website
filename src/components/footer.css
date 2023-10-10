@@ -22,11 +22,11 @@
     align-items: center;
     height: 70px;
     width: 120px;
-}
+    margin-bottom:50px;}
+
 
 .social-container {
-    width: 2vw;
-    height: 2vw;
+    width: 40px;
     margin-left: 10px;
     margin-right: 10px;
     position: relative;
@@ -54,4 +54,36 @@
     text-decoration: none;
     color: #F9F6F6;
     font-weight: 400;
+}
+.iframe-div{
+    width: 36vw;
+    height: 20vw;
+    display: flex;
+    align-items: center;
+}
+iframe{
+    height: 70%;
+}
+@media (max-width:900px) {
+    .iframe-div{
+        width: 80vw;
+        height: 40vw;
+    }
+    iframe{
+        height: 90%;
+    }
+    .social-container {
+        width: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        position: relative;
+    }
+    
+.social-icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 120px;
+    margin-bottom:20px;}
 }

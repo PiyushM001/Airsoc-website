@@ -60,7 +60,7 @@ seta32("a32");
 <Component2 animate={fun} a1={a1}  a21={a21} a22={a22} a31={a31} a32={a32}/>
 <Ourteam/>
 <Projecthomepage/>
-
+<Footer/>
 </div>
   );
 }

@@ -13,7 +13,6 @@ d{
 }
 .project-mid-div{
   background: #0099ff;
-  height: 400px;
   margin: 0;
 position: relative;
 }
@@ -30,15 +29,14 @@ position: relative;
     width: 100vw;
     height: 2vw;
     top: -1.5vw;
+
     background: linear-gradient(to right, #4a349b, #e07785);
 z-index: 10;}
 
 .project-div-2{
     display: flex;
     flex-flow: row;
-    justify-content:center
-    ;
-    height: 200px;
+    justify-content:center;
 
 }
 .project-underline{
@@ -63,19 +61,95 @@ z-index: 10;}
     margin: 0%
 
     ;
-    z-index: 200;
+    z-index: 10;
     width: 100%;
     padding: 0;
 }
 .lower-wave{
     position: relative;
+    z-index:2 ;
+
 }
 .svg4{
     z-index: 0;
     position: absolute;
-    bottom:8.2vw
+    bottom:17vw;
+    
 }
 .project-mid-div{
     background: linear-gradient(to right, #4a349b, #e07785);
-    height: 500px;
+    height:fit-content;
+    margin: 0;
 }
+@media (max-width:900px) {
+
+    .project-div-2{
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+   
+       
+    .project-div-2 > :nth-child(1) { 
+        margin-top: 25vw;
+    }
+}
+
+
+
+
+.see-more-btn2 {
+    width: 204px;
+    height: 66px;
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  cursor: pointer;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 5vw;
+    background: transparent;  z-index: 10;
+    border:  3px solid white;
+  
+  }
+  .see-more-btn2:hover {
+    background:transparent;
+    transition: all 0.5s ease-in-out;
+  }
+  .see-more-btn2:hover:not(){
+      
+    background:transparent;
+    transition: all 0.5s ease-in;
+  }
+  
+  .see-more-btn-div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    z-index: 100000000;
+  }
+  
+ 
+  @media (max-width:900px) {
+    .see-more-btn2 {
+      width: 154px;
+    height: 56px;
+    font-size: 20px;
+    border-radius: 100px;
+    }
+    .btn-border2 {
+      width: 162px;
+      height: 63px;
+      border-radius: 100px;}
+      .see-more-btn-div2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 12vh;
+        z-index: 100000000;
+      }
+  }
+  
