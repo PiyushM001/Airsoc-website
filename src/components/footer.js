@@ -1,4 +1,5 @@
 import React from 'react'
+
 import './footer.css'
 import socialImg1 from '../images/mail-foot-no-hover.svg'
 import socialImg1Hov from '../images/mail-foot-hover.svg'
