@@ -6,6 +6,9 @@ import Navbar from './components/home-page/navbar';
 import Ourteam from './components/home-page/our-team';
 import Projecthomepage from './components/home-page/project/project-home-page';
 import Footer from './components/footer';
+import Milestoneshome from './components/home-page/milestones-home-page/milestones-home';
+import Gallaryhome from './components/home-page/gallary-home-page/gallary-home';
+import Contact from './components/home-page/contact-us/contact';
 function App() {
  
   
@@ -16,7 +19,11 @@ function App() {
 <Component2 />
 <Ourteam/>
 <Projecthomepage/>
+<Milestoneshome/>
+<Gallaryhome/>
+<Contact/>
 <Footer/>
+
 </div>
   );
 }

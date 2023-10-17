@@ -1,5 +1,5 @@
 .our-team-div{
-margin-top: 300px;
+margin-top: 150px;
 display: flex;
 flex-flow: column;
 justify-content: center;
@@ -35,7 +35,13 @@ align-self: center;
     display: none;
 }
 @media (max-width:900px) {
-
+    .our-team-div{
+        margin-top: 150px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        
+        }
     .our-team-div2 > :nth-child(2) {
         display: none;
       }

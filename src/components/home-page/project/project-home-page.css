@@ -71,9 +71,9 @@ z-index: 10;}
 
 }
 .svg4{
-    z-index: 0;
+    z-index: 2;
     position: absolute;
-    bottom:17vw;
+    bottom:0vw;
     
 }
 .project-mid-div{

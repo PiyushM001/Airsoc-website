@@ -2,9 +2,10 @@ import React from "react";
 import img from "../../images/PP1P.svg";
 import img2 from "../../images/Airsoc 2.svg";
 import "./component2.css";
+import Slider from "./image-slider/slider";
 export default function Component2() {
   return (
-    <div>
+    <div className="component2-main-div">
       <div className="plane-img-div">
         <img className="plane-img" src={img}></img>
       </div>
@@ -38,8 +39,41 @@ export default function Component2() {
           is to inculcate the culture of airborne vehicles among IIT Roorkee
           junta and bring glory to IITR through national and international
           competitions.
-        </p></div>
+        </p>
+        <div className=" underline project-underline underline-comp2"></div>
+        <Slider/>
+        </div>
+        
+      </div>
+      <div className="svg-comp2">
+      <svg
+          className="svg3"
+          viewBox="0 50 1440 200"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#4a349b" />
+              <stop offset="100%" stop-color="#e07785" />
+            </linearGradient>
+          </defs>
+          <path
+            fill="url(#gradient)"
+            fill-opacity="1"
+            d="M0,128L48,138.7C96,149,192,171,288,181.3C384,192,480,192,576,165.3C672,139,768,85,864,101.3C960,117,1056,203,1152,218.7C1248,235,1344,181,1392,154.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"          ></path>
+        </svg>
+        <svg className=" svg4-comp2" viewBox="0 50 1440 180">
+        <path
+          fill="#0099ff"
+          fill-opacity="0"
+          stroke="purple"
+          stroke-width="4"
+          stroke-dasharray="20 30"
+          d="M0,128L48,138.7C96,149,192,171,288,181.3C384,192,480,192,576,165.3C672,139,768,85,864,101.3C960,117,1056,203,1152,218.7C1248,235,1344,181,1392,154.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"        ></path>
+      </svg>
       </div>
     </div>
   );
 }
+//<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,128L48,138.7C96,149,192,171,288,181.3C384,192,480,192,576,165.3C672,139,768,85,864,101.3C960,117,1056,203,1152,218.7C1248,235,1344,181,1392,154.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>

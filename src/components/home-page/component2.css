@@ -3,13 +3,16 @@
   margin-top: 85px;
  
 }
+.svg-comp2{
+  position: relative;
+}
 .plane-img-div {
   overflow: hidden;
 }
 .component2-div {
   width: 100%;
   background: linear-gradient(to right, #4a349b, #e07785);
-  height: 50vh;
+  height:250px;
   margin-top:0px;
   position: relative;
 }
@@ -37,6 +40,9 @@
 }
 
 .component2-text-div{
+  display: flex;
+  justify-content: center;
+  flex-flow:column;
     width: 85vw;
     position: absolute;
     left: 7.5vw;
@@ -55,6 +61,15 @@
   font-weight: bold;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+}
+.underline-comp2{
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+.svg4-comp2{
+  position: absolute;
+  top:20px;
+  left:0;
 }
 @media (max-width: 900px) {
     .plane-img {
@@ -109,5 +124,12 @@
         font-size:12vw;
         font-weight: bold;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .component2-div {
+      width: 100%;
+      background: linear-gradient(to right, #4a349b, #e07785);
+      height: 510px;
+      margin-top:0px;
+      position: relative;
     }
 }

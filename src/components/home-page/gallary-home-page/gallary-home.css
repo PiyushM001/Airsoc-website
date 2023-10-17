@@ -1,0 +1,13 @@
+.gallary-home-div2{
+    height: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.xyz{
+    background: linear-gradient(to right, #4a349b, #e07785);
+}
+.gallary-home-div3{
+    height: 300px;
+    width: 80%;
+}
