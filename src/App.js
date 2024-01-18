@@ -1,31 +1,24 @@
-import React ,{ useState } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './Pages/Home'
+import Gallery from './Pages/Gallery'
+import Milestones from './Pages/Milestones'
+import TeamMembers from './Pages/TeamMembers'
+import Projects from './Pages/Projects'
 
-import './App.css';
-import Component2 from './components/home-page/component2';
-import Navbar from './components/home-page/navbar';
-import Ourteam from './components/home-page/our-team';
-import Projecthomepage from './components/home-page/project/project-home-page';
-import Footer from './components/footer';
-import Milestoneshome from './components/home-page/milestones-home-page/milestones-home';
-import Gallaryhome from './components/home-page/gallary-home-page/gallary-home';
-import Contact from './components/home-page/contact-us/contact';
-function App() {
- 
-  
-
-  return (
-    <div className='app_body'>
-<Navbar/>
-<Component2 />
-<Ourteam/>
-<Projecthomepage/>
-<Milestoneshome/>
-<Gallaryhome/>
-<Contact/>
-<Footer/>
-
-</div>
-  );
+export default function App() {
+  return(
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/milestones" element={<Milestones />} />
+          <Route path="/team" element={<TeamMembers />} />
+        </Routes>
+      </BrowserRouter>
+    
+    </div>
+  )
 }
-
-export default App;

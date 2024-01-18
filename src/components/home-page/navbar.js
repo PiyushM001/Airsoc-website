@@ -23,23 +23,20 @@ export default function Navbar() {
         </div>
         <div className="links0">
           <div className="links">
-            <a className="link" href="/">
+            <a className="link" href="/home">
               Home{" "}
             </a>
-            <a className="link" href="/">
+            <a className="link" href="/team">
               Team{" "}
             </a>
-            <a className="link" href="/">
+            <a className="link" href="/projects">
               Project
             </a>
-            <a className="link" href="/">
+            <a className="link" href="/milestones">
               Milestone
             </a>
-            <a className="link" href="/">
+            <a className="link" href="/gallery">
               Gallery{" "}
-            </a>
-            <a className="link" href="/">
-              Contact
             </a>
           </div>
         </div>
